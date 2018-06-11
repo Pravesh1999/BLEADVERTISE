@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/advertise_btn"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="104dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="28dp"
+        android:text="advertise"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/discover_btn"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="17dp"
+        android:text="Discover"
+        app:layout_constraintEnd_toEndOf="@+id/advertise_btn"
+        app:layout_constraintTop_toBottomOf="@+id/advertise_btn" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="64dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/discover_btn"
+        app:layout_constraintTop_toBottomOf="@+id/discover_btn" />
+</android.support.constraint.ConstraintLayout>
